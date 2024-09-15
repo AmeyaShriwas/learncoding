@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 1053px) {
+   
+  
+    .LastContainer{
+        display: none !important;
+    }
+
+    .md\:w-3\/5 {
+        width: 80% !important; /* Adjust the width as needed */
+    }
+   
+}
+
+@media screen and (max-width: 768px) {
+    .md\:w-3\/5 {
+        width: 100% !important; /* Adjust the width as needed */
+    }
+    .md\:w-1\/5{
+        width: 100% !important; 
+    }
+   
+   
+
+}
+
+@media screen and (max-width: 1284px) {
+   .blogText{
+    font-size: 14px;
+   }
+
+}
+

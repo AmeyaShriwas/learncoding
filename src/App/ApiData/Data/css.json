@@ -1,0 +1,109 @@
+{
+    "Topic2": [
+        {
+            "id": 1,
+            "Heading": "CSS Basics",
+            "Title": [
+              "Introduction to CSS",
+              "CSS Syntax and Selectors",
+              "CSS Properties and Values",
+              "CSS Box Model"
+            ],
+            "Description": [
+              "Learn what CSS (Cascading Style Sheets) is and how it's used to style HTML elements on web pages.",
+              "Understand the syntax of CSS and different types of selectors used to target HTML elements for styling purposes.",
+              "Explore the wide range of CSS properties and values available for controlling the appearance and behavior of web page elements.",
+              "Discover the CSS box model, including concepts such as content, padding, border, and margin, and how they affect the layout and spacing of elements on a webpage."
+
+            ]
+           
+         
+          },
+          {
+            "id": 2,
+            "Heading": "Selectors and Properties",
+            "Title": [
+              "Advanced Selectors",
+              "CSS Positioning",
+              "Display Property",
+              "Overflow and Floats"
+            ],
+            "Description": [
+              "Delve deeper into CSS selectors, including advanced techniques like attribute selectors, pseudo-classes, and pseudo-elements, to target specific elements with precision. For example, to select all anchor elements with a `target` attribute, you can use the selector `a[target]`.",
+              "Explore the different positioning schemes in CSS, including static, relative, absolute, fixed, and sticky positioning, and learn how to precisely control the placement of elements on a webpage. For instance, to position an element 50 pixels from the top and 100 pixels from the left of its containing element, you can use `position: absolute; top: 50px; left: 100px;`.",
+              "Learn about the CSS `display` property and its various values, such as block, inline, inline-block, flex, grid, and more, for controlling the layout and behavior of elements in the document flow. For example, to create a flexible layout using the CSS `flex` property, you can define a container with `display: flex;` and adjust the flex properties of its child elements.",
+              "Understand how the CSS `overflow` property controls how content that is too large to fit into an element is handled, and learn about the `float` property for positioning elements horizontally within their containing elements. For instance, you can use `overflow: auto;` to add a scrollbar to an element when its content overflows its boundaries, and `float: left;` to float an element to the left within its container."
+            ]
+          }
+          
+          ,
+          {
+            "id": 3,
+            "Heading": "Box Model and Layout",
+            "Title": [
+              "Margins and Padding",
+              "Border Properties",
+              "Width and Height",
+              "Box Sizing"
+            ],
+            "Description": [
+              "Learn how to use CSS margins and padding to create space around elements and control their spacing. Margins create space outside an element, pushing other elements away, while padding creates space inside an element, separating its content from its border.",
+              "Explore CSS border properties for styling and controlling the appearance of element borders. You can specify border width, style, and color using the `border-width`, `border-style`, and `border-color` properties, respectively.",
+              "Understand how to set the width and height of elements using CSS properties, including `width`, `height`, `min-width`, `max-width`, `min-height`, and `max-height`. These properties allow you to define the dimensions of elements in various units such as pixels, percentages, or viewport units.",
+              "Learn about the CSS `box-sizing` property and its values for controlling how the total width and height of elements are calculated. The `box-sizing` property can be set to `content-box` (default) or `border-box`, where `content-box` includes only the content area in the width and height calculations, while `border-box` includes padding and border in the calculations."
+            ]
+          },
+          {
+            "id": 4,
+            "Heading": "Typography and Fonts",
+            "Title": [
+              "Font Properties",
+              "Text Properties",
+              "Google Fonts",
+              "Web Safe Fonts"
+            ],
+            "Description": [
+              "Explore CSS font properties for controlling the font family, size, weight, style, and variant of text. You can use properties like `font-family`, `font-size`, `font-weight`, `font-style`, and `font-variant` to customize the appearance of text.",
+              "Learn about CSS text properties for controlling text alignment, decoration, transformation, spacing, and wrapping. Properties like `text-align`, `text-decoration`, `text-transform`, `letter-spacing`, and `word-wrap` can be used to style text according to your design requirements.",
+              "Discover how to use Google Fonts to easily incorporate custom fonts into your web projects. Google Fonts offers a wide variety of free and open-source fonts that can be added to your website by including a link to the font in your HTML or CSS.",
+              "Understand the concept of web safe fonts and how to specify fallback fonts in CSS for better cross-browser compatibility. Web safe fonts are fonts that are commonly available on most operating systems and devices, ensuring consistent typography across different platforms."
+            ]
+          },
+          {
+            "id": 5,
+            "Heading": "Colors and Backgrounds",
+            "Title": [
+              "Color Properties",
+              "Background Properties",
+              "Gradient Backgrounds",
+              "Background Shorthand"
+            ],
+            "Description": [
+              "Explore CSS color properties for specifying text color, background color, and border color using color names, hex codes, RGB values, and HSL values. You can use properties like `color`, `background-color`, and `border-color` to customize the color scheme of your webpage.",
+              "Learn about CSS background properties for setting background images, colors, positions, sizes, repeats, and attachments. Properties like `background-image`, `background-color`, `background-position`, `background-size`, `background-repeat`, and `background-attachment` can be used to style the background of elements.",
+              "Discover how to create gradient backgrounds using CSS linear gradients and radial gradients. CSS gradients allow you to smoothly transition between two or more colors, creating visually appealing background effects.",
+              "Understand how to use the CSS background shorthand property to set multiple background properties in a single declaration. The shorthand property combines `background-image`, `background-color`, `background-position`, `background-size`, `background-repeat`, and `background-attachment` into one concise declaration."
+            ]
+          },
+          {
+            "id": 6,
+            "Heading": "Flexbox and Grid Layout",
+            "Title": [
+              "Introduction to Flexbox",
+              "Flexbox Properties",
+              "Introduction to CSS Grid",
+              "Grid Properties"
+            ],
+            "Description": [
+              "Learn the basics of CSS Flexbox layout, including flex containers, flex items, flex directions, alignment, and distribution.",
+              "Explore CSS Flexbox properties like flex-grow, flex-shrink, flex-basis, align-items, align-self, justify-content, and flex-wrap.",
+              "Understand the fundamentals of CSS Grid layout, including grid columns, rows, gaps, lines, areas, and alignment.",
+              "Explore CSS Grid properties like grid-template-columns, grid-template-rows, grid-gap, grid-column, grid-row, justify-items, align-items, and grid-auto-flow for creating complex grid layouts."
+            ]
+          }
+          
+          
+
+          
+    ]
+}

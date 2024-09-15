@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+    .dashboardContainer{
+        display: flex;
+       flex-direction: column;
+       padding: 20px;
+    }
+  
+}
+.dashboardResponsive{
+    display: none;
+}
+
+@media screen and (max-width: 1111px) {
+
+    .sidebarDashboard{
+        display: none;
+    }
+    .dashboardContainerMain{
+        width: 100% !important;
+    }
+    .dashboardBoxes{
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+   .singleBox{
+    display: none;
+   }
+   .dashboxes{
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   .dashsecondbox{
+    flex-direction: column;
+    align-items: center;
+    background-color: #;
+   }
+
+}
+@media screen and (max-width: 570px) {
+    .dashboardBoxes{
+        display: flex;
+       flex-direction: column;
+       
+    }
+    .singleBox{
+        width: 85% !important;
+        height: 80px !important;
+        display: flex !important;
+        flex-direction: row !important;
+        font-size: 16px !important;
+        border-radius: 12px !important;
+        border: 3px solid teal !important
+        
+    }
+    .boxNumber{
+        font-size: 18px !important;
+    }
+    .dashboardResponsive{
+        display: block;
+    }
+  
+}

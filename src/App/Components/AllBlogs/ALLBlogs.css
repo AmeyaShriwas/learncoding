@@ -1,0 +1,36 @@
+.selectCourse{
+    display: none;
+}
+
+@media screen and (max-width: 920px) {
+    .blogsCategory{
+        display: none;
+    }
+    
+}
+.blogCategoryResp{
+    display: none !important;
+}
+
+@media screen and (max-width: 800px) {
+    .blogCategoryResp{
+        display: block !important;
+    }
+    .imageHeading{
+        display: none !important;
+      } 
+      .mainBlogsContainer{
+        width: 100% !important;
+    } 
+    .sidebarBlogs{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 380px) {
+    
+    .selectCourse{
+        display: block;
+    }
+  
+}

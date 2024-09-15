@@ -1,0 +1,161 @@
+{
+    "Topic12": [
+        {
+            "id": 1,
+            "Heading": "Introduction to MySQL",
+            "Title1": "Overview of MySQL Database Management System",
+            "Description1": "Get an overview of the MySQL Database Management System (DBMS), including its history, features, and popularity. Understand its role in the relational database landscape.",
+            "Title2": "Understanding Relational Databases",
+            "Description2": "Learn the fundamentals of relational databases and their importance in modern data management. Explore concepts like tables, rows, columns, keys, and relationships.",
+            "Title3": "Installing MySQL Server",
+            "Description3": "Step-by-step guide to installing MySQL Server on various platforms, including Windows, macOS, and Linux. Learn about different installation methods and configurations.",
+            "Title4": "MySQL Workbench and Command Line Client",
+            "Description4": "Discover MySQL Workbench, a visual tool for database design, development, and administration. Also, explore the MySQL Command Line Client for executing SQL queries and commands."
+          },
+          {
+            "id": 2,
+            "Heading": "SQL Basics",
+            "Title1": "Introduction to SQL (Structured Query Language)",
+            "Description1": "Learn the basics of SQL, the standard language for relational database management systems. Understand its syntax, data types, and fundamental concepts like queries and statements.",
+            "Title2": "Data Types and Operators",
+            "Description2": "Explore the various data types supported by SQL databases and how to use operators for data manipulation and comparison. Understand numeric, string, date, and other data types.",
+            "Title3": "Querying Data with SELECT Statement",
+            "Description3": "Learn how to retrieve data from a database table using the SELECT statement in SQL. Understand the syntax and usage of SELECT queries to fetch specific columns or rows.",
+            "Title4": "Filtering Data with WHERE Clause",
+            "Description4": "Discover how to filter data retrieved from a database table using the WHERE clause in SQL. Learn to apply conditions to SELECT queries to fetch only the desired data."
+          },
+          {
+            "id": 3,
+            "Heading": "Data Manipulation",
+            "Title1": "Inserting Data into Tables",
+            "Description1": "Learn how to insert new records or rows into database tables using SQL INSERT statements. Understand the syntax and usage of INSERT queries to add data.",
+            "Title2": "Updating Existing Data",
+            "Description2": "Discover how to update existing records in database tables using SQL UPDATE statements. Learn to modify data in specific rows or columns based on specified conditions.",
+            "Title3": "Deleting Data from Tables",
+            "Description3": "Explore the process of deleting records or rows from database tables using SQL DELETE statements. Learn to remove unwanted data from tables while preserving table integrity.",
+            "Title4": "Modifying Table Structure with ALTER TABLE",
+            "Description4": "Understand how to modify the structure of database tables using SQL ALTER TABLE statements. Learn to add, modify, or drop columns, constraints, and indexes."
+          },
+          {
+            "id": 4,
+            "Heading": "Querying Data",
+            "Title1": "Sorting Data with ORDER BY",
+            "Description1": "Learn how to sort retrieved data from a database table using the ORDER BY clause in SQL. Understand how to specify sorting criteria and sort data in ascending or descending order.",
+            "Title2": "Aggregating Data with GROUP BY",
+            "Description2": "Discover how to perform data aggregation operations on database tables using the GROUP BY clause in SQL. Learn to group data based on common attributes and calculate aggregate functions.",
+            "Title3": "Filtering Grouped Data with HAVING",
+            "Description3": "Explore how to filter grouped data after applying the GROUP BY clause using the HAVING clause in SQL. Learn to apply conditions to aggregated data and filter results accordingly.",
+            "Title4": "Joining Tables with INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN",
+            "Description4": "Understand the concept of joining database tables to retrieve data from multiple related tables using SQL JOIN operations. Learn about different types of joins and their usage."
+          },
+          {
+            "id": 5,
+            "Heading": "Advanced SQL",
+            "Title1": "Subqueries and Derived Tables",
+            "Description1": "Understand how to use subqueries and derived tables in SQL to perform complex queries and calculations. Learn their syntax, usage, and common scenarios.",
+            "Title2": "Set Operations (UNION, INTERSECT, EXCEPT)",
+            "Description2": "Explore set operations such as UNION, INTERSECT, and EXCEPT in SQL for combining and comparing result sets from multiple queries. Understand their usage and applications.",
+            "Title3": "Working with Dates and Times",
+            "Description3": "Learn how to work with dates and times in SQL, including date arithmetic, formatting, and manipulation. Discover functions and operators for handling temporal data effectively.",
+            "Title4": "Window Functions and Analytical Queries",
+            "Description4": "Gain insights into window functions and analytical queries in SQL for performing advanced data analysis tasks. Learn how to calculate rankings, aggregates, and moving averages."
+          },
+          {
+            "id": 6,
+            "Heading": "Data Definition Language (DDL)",
+            "Title1": "Creating and Managing Tables",
+            "Description1": "Master the Data Definition Language (DDL) commands in SQL for creating and managing database tables. Understand how to define table structure, data types, and constraints.",
+            "Title2": "Defining Constraints (Primary Key, Foreign Key, Unique, Not Null)",
+            "Description2": "Learn about different types of constraints in SQL, including primary key, foreign key, unique, and not null constraints. Explore how to enforce data integrity and ensure data quality.",
+            "Title3": "Creating Indexes for Performance Optimization",
+            "Description3": "Discover how to create indexes on database tables to improve query performance and speed up data retrieval. Understand the types of indexes and their impact on database operations.",
+            "Title4": "Dropping Tables and Indexes",
+            "Description4": "Learn how to drop tables and indexes in SQL to remove unwanted database objects. Understand the implications of dropping tables and indexes, and use caution in production environments."
+          },
+          {
+            "id": 7,
+            "Heading": "Transactions and Concurrency",
+            "Title1": "Introduction to Transactions",
+            "Description1": "Understand the concept of transactions in SQL and their role in maintaining data integrity and consistency. Learn how transactions are used to group database operations.",
+            "Title2": "ACID Properties (Atomicity, Consistency, Isolation, Durability)",
+            "Description2": "Explore the ACID properties that define the behavior of transactions: atomicity, consistency, isolation, and durability. Understand their significance in database management.",
+            "Title3": "Transaction Control Statements (COMMIT, ROLLBACK, SAVEPOINT)",
+            "Description3": "Learn about transaction control statements such as COMMIT, ROLLBACK, and SAVEPOINT in SQL for managing transactional behavior. Understand how to control transaction outcomes.",
+            "Title4": "Handling Concurrent Access and Locking",
+            "Description4": "Discover techniques for handling concurrent access and preventing data inconsistencies in multi-user database environments. Learn about locking mechanisms and concurrency control strategies."
+          },
+          {
+            "id": 8,
+            "Heading": "Stored Procedures and Functions",
+            "Title1": "Creating and Executing Stored Procedures",
+            "Description1": "Learn how to create and execute stored procedures in SQL, which are precompiled sets of one or more SQL statements stored in the database for reuse and efficiency.",
+            "Title2": "Passing Parameters to Stored Procedures",
+            "Description2": "Understand how to pass parameters to stored procedures in SQL, allowing for dynamic and flexible execution of procedures with different input values.",
+            "Title3": "Creating and Calling User-Defined Functions",
+            "Description3": "Discover how to create and call user-defined functions (UDFs) in SQL, which are reusable blocks of code that accept parameters and return a single value.",
+            "Title4": "Advantages and Use Cases of Stored Procedures and Functions",
+            "Description4": "Explore the advantages and use cases of stored procedures and functions in SQL, including improved performance, code encapsulation, and security enforcement."
+          },
+          {
+            "id": 9,
+            "Heading": "Triggers",
+            "Title1": "Introduction to Triggers",
+            "Description1": "Get an introduction to triggers in SQL, which are special types of stored procedures that automatically execute in response to certain database events.",
+            "Title2": "Creating Triggers for Insert, Update, and Delete Operations",
+            "Description2": "Learn how to create triggers in SQL to respond to insert, update, and delete operations on database tables, enabling automated actions based on data changes.",
+            "Title3": "Trigger Syntax and Execution Flow",
+            "Description3": "Understand the syntax and execution flow of triggers in SQL, including trigger definition, event specification, condition evaluation, and trigger action.",
+            "Title4": "Use Cases and Best Practices for Triggers",
+            "Description4": "Explore common use cases and best practices for using triggers in SQL databases, along with considerations for performance, maintainability, and security."
+          },
+          {
+            "id": 10,
+            "Heading": "Performance Optimization",
+            "Title1": "Query Optimization Techniques",
+            "Description1": "Learn various techniques for optimizing SQL queries to improve performance, including query rewriting, index usage, query caching, and query execution plans.",
+            "Title2": "Indexing Strategies",
+            "Description2": "Discover different indexing strategies in SQL databases for improving query performance by creating and maintaining indexes on tables and columns.",
+            "Title3": "Analyzing Query Execution Plans",
+            "Description3": "Understand how to analyze query execution plans generated by the database engine to identify bottlenecks, optimize query performance, and improve resource utilization.",
+            "Title4": "Using Profiling Tools for Performance Tuning",
+            "Description4": "Explore the use of profiling tools and utilities for monitoring and analyzing SQL query performance, identifying slow queries, and optimizing database performance."
+          },
+          {
+            "id": 11,
+            "Heading": "Backup and Recovery",
+            "Title1": "Database Backup Methods (Logical and Physical)",
+            "Description1": "Learn about different database backup methods, including logical and physical backups, their advantages, and how to implement them to ensure data integrity and availability.",
+            "Title2": "Setting up Automated Backup Jobs",
+            "Description2": "Discover how to set up automated backup jobs and schedules in SQL databases to regularly back up critical data and minimize the risk of data loss in case of system failure.",
+            "Title3": "Point-in-Time Recovery",
+            "Description3": "Understand the concept of point-in-time recovery in SQL databases, which enables restoring databases to a specific point in time to recover from data corruption or user errors.",
+            "Title4": "Disaster Recovery Planning",
+            "Description4": "Learn about disaster recovery planning for SQL databases, including strategies for data backup, redundancy, failover, and disaster response to ensure business continuity."
+          },
+          {
+            "id": 12,
+            "Heading": "Security",
+            "Title1": "User Authentication and Authorization",
+            "Description1": "Explore techniques for user authentication and authorization in MySQL databases, including user account management, access control, and permission granting.",
+            "Title2": "Privileges and Roles Management",
+            "Description2": "Learn how to manage user privileges and roles in MySQL, allowing you to control access to database objects and operations based on user roles and permissions.",
+            "Title3": "Encrypting Data in MySQL",
+            "Description3": "Discover methods for encrypting sensitive data stored in MySQL databases to enhance data security and protect against unauthorized access and data breaches.",
+            "Title4": "Auditing and Monitoring for Security Compliance",
+            "Description4": "Understand the importance of auditing and monitoring MySQL databases for security compliance, including tracking user activities, detecting suspicious behavior, and ensuring regulatory compliance."
+          },
+          {
+            "id": 13,
+            "Heading": "High Availability and Scalability",
+            "Title1": "Replication Setup and Configuration",
+            "Description1": "Learn how to set up and configure replication in MySQL databases to achieve high availability and fault tolerance, allowing for data redundancy and automatic failover.",
+            "Title2": "Failover and Switchover Procedures",
+            "Description2": "Explore failover and switchover procedures in MySQL replication setups, including best practices for handling failover events and ensuring minimal downtime during switchovers.",
+            "Title3": "Scaling Out with MySQL Cluster",
+            "Description3": "Discover how to scale out MySQL databases using MySQL Cluster, a distributed database architecture that provides high availability, automatic sharding, and horizontal scalability.",
+            "Title4": "Sharding Strategies for Horizontal Scaling",
+            "Description4": "Learn about sharding strategies for horizontal scaling in MySQL databases, including partitioning data across multiple shards to distribute workload and improve performance."
+          }
+          
+    ]
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 330px) {
+    .whatsappImg{
+       width: 35px;
+       height: 35px;
+    }
+}
+.chatbox{
+    position: fixed !important;
+    bottom: 20 !important;
+    right: 15 !important;
+    z-index: 9 !important;
+}

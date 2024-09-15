@@ -1,0 +1,50 @@
+.responsiveRightContainer{
+    display: none !important;
+    overflow: hidden !important;
+}
+
+
+
+@media screen and (max-width: 1060px) {
+     .rightUpdateContainer{
+        display: none !important;
+        overflow: hidden;
+     }
+     .leftPostContainer{
+        width: 100% !important;
+
+     }
+}
+
+@media screen and (max-width: 530px){
+     .breadcrums{
+        font-size: 14px;
+     }
+    
+}
+
+@media screen and (max-width: 460px){
+    .breadcrums{
+       font-size: 12px;
+    }
+   
+}
+
+@media screen and (max-width: 450px){
+    .breadcrums{
+       font-size: 10px;
+    }
+    .breadcrumSpace{
+       margin-top: -5px;
+    }
+    .headingText{
+        font-size: 16px !important;
+    }
+    .responsiveRightContainer{
+        display: block !important;
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+    }
+  
+}
