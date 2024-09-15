@@ -1,70 +1,62 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom'
-import Logo from './../../../assets/Logo.png'
+import { Fragment } from 'react';
+import { Disclosure, Menu, Transition } from '@headlessui/react';
+import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline';
+import { Link } from 'react-router-dom';
 
 const user = {
   name: 'Tom Cook',
   email: 'tom@example.com',
   imageUrl:
     'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-}
+};
 const navigation = [
-  { name: 'Dashboard', href: '/dashboard', current: true },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Blogs', href: '/blog', current: false },
-]
+  { name: 'Dashboard', to: '/dashboard', current: true },
+  { name: 'Projects', to: '/projects', current: false },
+  { name: 'Blogs', to: '/blog', current: false },
+];
 const userNavigation = [
-  { name: 'Sign out', href: '/login' },
-  { name: 'Sign Up', href: '/Signup' },
-]
+  { name: 'Sign out', to: '/login' },
+  { name: 'Sign Up', to: '/signup' },
+];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function Example() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
-      <div className="min-h-full sticky top-0 z-999990" style={{zIndex: '99999'}}>
-        <Disclosure as="nav" className="bg-green-600" style={{backgroundColor: 'teal'}}>
+      <div className="min-h-full sticky top-0 z-999990" style={{ zIndex: '99999' }}>
+        <Disclosure as="nav" className="bg-green-600" style={{ backgroundColor: 'teal' }}>
           {({ open }) => (
             <>
               <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
-                   <Link to='/'> <div className="flex-shrink-0">
-                      <img
-                        className="h-12 w-12"
-                        src='https://static.vecteezy.com/system/resources/thumbnails/014/441/310/small/infinity-icon-3d-design-for-application-and-website-presentation-png.png'
-                        alt="Your Company"
-                      />
-                    </div></Link>
+                    <Link to="/">
+                      <div className="flex-shrink-0">
+                        <img
+                          className="h-12 w-12"
+                          src="https://static.vecteezy.com/system/resources/thumbnails/014/441/310/small/infinity-icon-3d-design-for-application-and-website-presentation-png.png"
+                          alt="Your Company"
+                        />
+                      </div>
+                    </Link>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
                         {navigation.map((item) => (
-                          <a
+                          <Link
                             key={item.name}
-                            href={item.href}
+                            to={item.to}
                             className={classNames(
                               item.current
                                 ? 'bg-gray-900 text-white'
                                 : 'text-white-800 hover:bg-gray-700 hover:text-white',
                               'rounded-md px-3 py-2 text-sm font-medium'
                             )}
-                            aria-current={item.current ? 'page' : undefined}
                           >
                             {item.name}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     </div>
@@ -80,7 +72,6 @@ export default function Example() {
                         <BellIcon className="h-6 w-6" aria-hidden="true" />
                       </button>
 
-                      {/* Profile dropdown */}
                       <Menu as="div" className="relative ml-3">
                         <div>
                           <Menu.Button className="relative flex max-w-xs items-center rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
@@ -99,15 +90,18 @@ export default function Example() {
                           leaveTo="transform opacity-0 scale-95"
                         >
                           <Menu.Items className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                          <Link to='/login'><p className='p-3 font-bold'>Login</p></Link>
-                          <Link><p className='p-3 font-bold'>Logout</p></Link>
+                            <Link to="/login">
+                              <p className="p-3 font-bold">Login</p>
+                            </Link>
+                            <Link to="/logout">
+                              <p className="p-3 font-bold">Logout</p>
+                            </Link>
                           </Menu.Items>
                         </Transition>
                       </Menu>
                     </div>
                   </div>
                   <div className="-mr-2 flex md:hidden">
-                    {/* Mobile menu button */}
                     <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-0.5" />
                       <span className="sr-only">Open main menu</span>
@@ -126,13 +120,12 @@ export default function Example() {
                   {navigation.map((item) => (
                     <Disclosure.Button
                       key={item.name}
-                      as="a"
-                      href={item.href}
+                      as={Link}
+                      to={item.to}
                       className={classNames(
                         item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                         'block rounded-md px-3 py-2 text-base font-medium'
                       )}
-                      aria-current={item.current ? 'page' : undefined}
                     >
                       {item.name}
                     </Disclosure.Button>
@@ -160,8 +153,8 @@ export default function Example() {
                     {userNavigation.map((item) => (
                       <Disclosure.Button
                         key={item.name}
-                        as="a"
-                        href={item.href}
+                        as={Link}
+                        to={item.to}
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white"
                       >
                         {item.name}
@@ -173,9 +166,7 @@ export default function Example() {
             </>
           )}
         </Disclosure>
-
-     
       </div>
     </>
-  )
+  );
 }
